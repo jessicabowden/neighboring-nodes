@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS neighboring_nodes (
+    id integer PRIMARY KEY,
+    size integer NOT NULL
+);
+CREATE TABLE IF NOT EXISTS nodes (
+    node_id integer PRIMARY KEY,
+    x_axis integer NOT NULL,
+    y_axis integer NOT NULL,
+  	nn_id integer NOT NULL,
+  	FOREIGN KEY (nn_id) REFERENCES neighboring_nodes(id)
+);
