@@ -119,14 +119,3 @@ class NeighboringNodes:
                 neighbors.append(neighbor_indices)
 
         return neighbors
-
-
-neighboring_nodes_test = NeighboringNodes(6, False)
-
-# print(neighboring_nodes_test.get_position(14))
-
-print(neighboring_nodes_test.get_neighbors_coordinates(2, NeighborhoodShape.CROSS, i=15))
-# neighboring_nodes_test.get_neighbors_coordinates(3, NeighborhoodShape.SQUARE, i=13)
-# print(neighboring_nodes_test.get_neighbors_coordinates(2, NeighborhoodShape.DIAMOND, i=14))
-
-# print(neighboring_nodes_test.get_position(0))
