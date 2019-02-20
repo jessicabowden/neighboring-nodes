@@ -1,6 +1,3 @@
-# Teachable Assignment
-
-## Tasks 1 & 2:
 * see file neighboringnodes.py
 
 * an instance of the NeighboringNodes class can be created as follows:
@@ -42,7 +39,6 @@ print(neighboring_nodes_test.get_neighbors_coordinates(3, NeighborhoodShape.SQUA
 print(neighboring_nodes_test.get_neighbors_coordinates(2, NeighborhoodShape.DIAMOND, i=14))
 ```
 
-## Task 3:
 * see file schema.sqlite for NeighborhoodNodes database schema representation
 
 Example insertion (1 grid, 3 nodes):
